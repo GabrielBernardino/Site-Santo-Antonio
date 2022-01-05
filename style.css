@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background-color:rgb(255, 255, 255);
+    min-height: 200vh;
+}
+header{
+    border-bottom:1px solid rgb(160, 160, 160);
+    background:#fff;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    transition:0.6s;
+    padding:30px 100px;
+    z-index:100000;
+}
+.section-1{
+    display:flex;
+}
+header.sticky{
+    padding: 25px 100px;
+    background:rgb(1, 190, 27);
+}
+header .logo{
+    position:relative;
+    font-weight:700;
+    color:rgb(0, 211, 28);
+    text-decoration:none;
+    font-size:2em;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    transition:0.6;
+}
+header ul{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+header ul li{
+    position: relative;
+    list-style:none;
+}
+header ul li a{
+    font-weight: bold;
+    position:relative;
+    margin:0 15px;
+    text-decoration:none;
+    color:rgb(0, 211, 28);
+    letter-spacing: 2px;
+    font-weight:500px;
+    transition: 0.6s;
+}
+.banner {
+    top:80px;
+    position:relative;
+    width:100%;
+    height: 100vh;
+    background: url(img/bg.png);
+    background-size:cover;
+}
+header.sticky .logo{
+    color:#fff;
+}
+header.sticky ul li a{
+    color:#fff;
+}
+.section-1{
+    display:flex;
+}
+.paragrafo-1{
+    
+   
+    width:670px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(1, 190, 27);
+    font-size:20px;
+    letter-spacing: 2px;
+    transition:0.6;
+}
+.imagem-1{
+    padding-top: 30px;
+    position:relative;
+    width:533px;
+    height: 333px;
+    background: url(img/imagem-1.jpg);
+    background-size: cover;
+}
+p{
+    padding-left: 50px;
+}
+.rodape{
+    
+    color:white;
+    background:rgb(1, 190, 27);
+    width:100%;
+    height: 250px;
+}
+.rodape ul{
+    padding-left:150px;
+    padding-top:60px;
+}
+.rodape ul li{
+    list-style: none;
+    padding-top:10px;
+}
+.rodape ul li a {
+    
+    text-decoration: none;
+    color:#fff;
+}
